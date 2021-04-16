@@ -1,0 +1,1 @@
+numbers_ending_in_7 = [print(x) for x in range(1, 1001) if x % 10 == 7]
