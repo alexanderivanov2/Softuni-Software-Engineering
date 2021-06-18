@@ -1,0 +1,10 @@
+N_Playground = float(input())
+W_Tile = float(input())
+L_Tile = float(input())
+M_Bench = float(input())
+O_Bench = float(input())
+area_playground = (N_Playground ** 2) - ( M_Bench * O_Bench)
+playground_tile = area_playground / (W_Tile * L_Tile)
+time_for_placing_tile = playground_tile * 0.2
+print(round(playground_tile, 2))
+print(round(time_for_placing_tile, 2))
