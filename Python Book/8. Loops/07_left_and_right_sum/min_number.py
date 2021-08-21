@@ -1,9 +1,17 @@
 n = int(input())
-min_sum = 100000000000
+
+left_side = 0
+right_side = 0
 
 for i in range(n):
     num = int(input())
-    if num < min_sum:
-        min_sum = num
+    left_side += num
 
-print(min_sum)
+for i in range(n):
+    num = int(input())
+    right_side += num
+
+if left_side == right_side:
+    print(f"Yes, sum = {left_side}")
+else:
+    print(f"No, diff = {abs(left_side - right_side)}")
