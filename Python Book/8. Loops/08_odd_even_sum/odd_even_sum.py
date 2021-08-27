@@ -1,8 +1,15 @@
 n = int(input())
-sum = 0
+even = 0
+odd = 0
 
 for i in range(n):
     num = int(input())
-    sum += num
+    if i % 2 == 0:
+        even += num
+    else:
+        odd += num
 
-print(sum)
+if even == odd:
+    print(f"Yes\nSum = {even}")
+else:
+    print(f"No\nDiff = {abs(even - odd)}")
