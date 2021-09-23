@@ -25,3 +25,13 @@ else:
         print(down_line * (roof - middle_of_the_roof_even), end="")
         print(stars * (middle_of_the_roof_even * 2), end="")
         print(down_line * (roof - middle_of_the_roof_even))
+
+if n < 3:
+    print("",end="")
+else:
+    print(stars * n)
+
+for house_floor in range(1, floors + 1):
+    print(sides, end="")
+    print(stars * (n - 2), end="")
+    print(sides)
