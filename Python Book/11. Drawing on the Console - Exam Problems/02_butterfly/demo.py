@@ -12,3 +12,9 @@ for up_half in range(1, (height - 1) // 2 + 1):
         print(dash * (left_or_right_part_width - 1) + left + space + right + dash * (left_or_right_part_width - 1))
 
 print(space * left_or_right_part_width + center + space * left_or_right_part_width)
+
+for down_half in range(1, (height - 1) // 2 + 1):
+    if down_half % 2 == 0:
+        print(dash * (left_or_right_part_width - 1) + right + space + left + dash * (left_or_right_part_width - 1))
+    else:
+        print(star * (left_or_right_part_width - 1) + right + space + left + star * (left_or_right_part_width - 1))
