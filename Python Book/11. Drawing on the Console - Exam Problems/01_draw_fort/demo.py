@@ -7,3 +7,6 @@ up_middle = "^"
 side = "|"
 space = " "
 between_left_right = n - (n // 2 + 2)
+
+print(right_line + up_middle * (n // 2) + left_line + down_line * (between_left_right * 2) + right_line + up_middle
+      * (n // 2) + left_line)
