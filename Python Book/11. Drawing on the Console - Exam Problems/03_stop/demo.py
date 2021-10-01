@@ -15,3 +15,10 @@ for i in range(1, top_points):
           + points * (top_points - 1))
     top_points -= 1
     middle_downline_up_to_down += 2
+
+print(right_line + downline * left_right_side_middle + text + downline * left_right_side_middle + left_line * 2 )
+print(left_line * 2 + downline * downline_after_middle + right_line)
+
+for row in range(1, down_points + 1):
+    print(points * row + left_line * 2 + downline * (downline_after_middle - down_after_mid) + right_line + points * row)
+    down_after_mid += 2
