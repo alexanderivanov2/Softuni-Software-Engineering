@@ -14,3 +14,9 @@ for row in range(1, n - 1):
           + points * before_mid_outside_points)
 
 print(grid * mid_grid + points * before_mid_inside_points + grid * mid_grid)
+
+for row2 in range(1, n - 1):
+    points_after_mid = width - row2 * 2 - 2
+    print(points * row2 + grid + points * points_after_mid + grid + points * row2)
+
+print(points * (n - 1) + grid + points * (n - 1))
