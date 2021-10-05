@@ -12,3 +12,7 @@ end_right_downline = (width - width_down_line_left - after_mid_downline)
 print(down_line * width_down_line_left + stars * 2 + down_line * width_down_line_right)
 for row in range(1, height_top_to_middle):
     print(down_line * width_down_line_left + stars + down_line * row + stars + down_line * (width_down_line_right - row))
+
+for row2 in range(1, mid_and_end + 1):
+    print(stars * (width_down_line_left + 1) + down_line * (height_top_to_middle - 1) + stars + down_line *
+          (width_down_line_right - height_top_to_middle + 1))
