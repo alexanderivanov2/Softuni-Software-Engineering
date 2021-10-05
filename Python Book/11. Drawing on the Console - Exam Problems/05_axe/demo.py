@@ -16,3 +16,11 @@ for row in range(1, height_top_to_middle):
 for row2 in range(1, mid_and_end + 1):
     print(stars * (width_down_line_left + 1) + down_line * (height_top_to_middle - 1) + stars + down_line *
           (width_down_line_right - height_top_to_middle + 1))
+
+for row3 in range(1, mid_and_end):
+    if n > 2:
+        print(down_line * width_down_line_left + stars + down_line * after_mid_downline + stars +
+        down_line * (end_right_downline - 2))
+        width_down_line_left -= 1
+        after_mid_downline += 2
+        end_right_downline -= 1
