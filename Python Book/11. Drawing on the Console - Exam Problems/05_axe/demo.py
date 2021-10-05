@@ -24,3 +24,8 @@ for row3 in range(1, mid_and_end):
         width_down_line_left -= 1
         after_mid_downline += 2
         end_right_downline -= 1
+
+stars_sum = after_mid_downline + 2
+right_lines = end_right_downline - 2
+left_lines = width - stars_sum - right_lines
+print(down_line * left_lines + stars * stars_sum + down_line * right_lines)
