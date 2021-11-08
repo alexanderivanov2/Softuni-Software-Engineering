@@ -18,3 +18,20 @@ while not (num1 == n == num2 and sym1 + 2 == last_char == sym2 + 2):
             if l == 1 and num1 == n == num2 and end_num == num_end:
                 break
             sym2 = ord("a")
+    if sym1 == last_char:
+        num2 += 1
+        sym1 = ord("a")
+        sym2 = ord("a")
+    if l == 1 and num1 == n == num2 and end_num == num_end:
+        break
+    elif num1 == n == num2 and sym1 + 2 == last_char == sym2 + 2:
+        break
+    if num2 == n:
+        num1 += 1
+        if num1 == n == num2 and end_num == num_end:
+            break
+        num2 = 1
+    if num2 >= num1:
+        end_num = num2
+    else:
+        end_num = num1
