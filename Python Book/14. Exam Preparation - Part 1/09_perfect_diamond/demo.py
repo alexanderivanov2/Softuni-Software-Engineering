@@ -16,3 +16,16 @@ if n > 1:
             print(line, end="")
             print(star, end="")
         print()
+
+    for row2 in range(n - 2, 0, -1):
+        print(space * space_up, end="")
+        print(star, end="")
+        for col2 in range(row2):
+            print(line, end="")
+            print(star, end="")
+        print()
+        space_up += 1
+
+    print(space * space_up + star)
+else:
+    print(star)
