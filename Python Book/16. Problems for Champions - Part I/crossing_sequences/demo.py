@@ -17,3 +17,22 @@ while tribonacci_current < 1000000:
 spiral_numbers = [spiral_current]
 spiral_count = 0
 spiral_step_mul = 1
+
+while spiral_current < 1000000:
+    spiral_current += spiral_step * spiral_step_mul
+    spiral_numbers.append(spiral_current)
+    spiral_count += 1
+    if spiral_count % 2 == 0:
+        spiral_step_mul += 1
+
+found = False
+for i in range(0, len(tribonacci_numbers)):
+    for j in range(0, len(spiral_numbers)):
+        if tribonacci_numbers[i] == spiral_numbers[j] and tribonacci_numbers[i] <= 1000000:
+            print(tribonacci_numbers[i])
+            found = True
+    if found:
+        break
+
+if not found:
+    print("No")
