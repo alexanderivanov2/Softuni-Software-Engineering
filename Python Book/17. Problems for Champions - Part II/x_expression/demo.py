@@ -32,3 +32,17 @@ while symbol != "=":
             result /= inner_result
         elif expression_operator == "*":
             result *= inner_result
+    elif 49 <= ord(symbol) <= 57:
+        if expression_operator == "+":
+            result += ord(symbol) - ord("0")
+        elif expression_operator == "-":
+            result -= ord(symbol) - ord("0")
+        elif expression_operator == "/":
+            result /= ord(symbol) - ord("0")
+        elif expression_operator == "*":
+            result *= ord(symbol) - ord("0")
+    elif symbol == "+" or symbol == "-" or symbol == "/" or symbol == "*":
+        expression_operator = symbol
+    symbol = symbols.pop(0)
+
+print(f"{result:.2f}")
