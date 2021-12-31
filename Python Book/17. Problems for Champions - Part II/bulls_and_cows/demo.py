@@ -1,0 +1,14 @@
+secret_number = int(input())
+bulls = int(input())
+cows = int(input())
+no_result = True
+secret_number1 = secret_number
+num4 = secret_number1 % 10
+secret_number1 = secret_number1 // 10
+num3 = secret_number1 % 10
+secret_number1 = secret_number1 // 10
+num2 = secret_number1 % 10
+secret_number1 = secret_number1 // 10
+num1 = secret_number1 % 10
+sec_bulls = 0
+sec_cows = 0
