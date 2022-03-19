@@ -1,0 +1,27 @@
+body {
+    margin: auto;
+    background-color: lightgray;
+}
+
+div {
+    margin: 5%;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    border: 0.4rem solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-right:10px;
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    justify-content: center;
+}
