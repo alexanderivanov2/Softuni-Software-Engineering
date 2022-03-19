@@ -1,19 +1,23 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
 body {
     margin: 50px;
-    font-family: Helvetica, sans-serif;
 }
 
 header h1 {
     display: inline-block;
 }
 
-header nav {
+header nav{
     display: inline-block;
     margin-left: 80px;
 }
 
-nav a {
-    padding-left: 15px;
+ul li {
+    display: inline-block;
+    padding-right: 30px;
 }
 
 a {
