@@ -23,6 +23,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #2d3748;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -45,4 +50,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
 }
