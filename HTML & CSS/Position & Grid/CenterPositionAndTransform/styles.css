@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 238, 238);
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 3px lightgrey;
+}
+div:first-child {
+    position: relative;
+}
+
+img {
+    height: 300px;
+    width: 450px;
+    top: 0;
+}
+
+div:last-child {
+    height: 150px;
+}
+
+div h2 {
+    font-family: Georgia, serif;
+    padding: 0 55px;
+    font-size: 1em;
+}
+
+div p {
+    margin: 0;
+    padding: 0 55px;
+}
+
+button {
+    position: absolute;
+    right: 55px;
+    bottom: 35px;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
