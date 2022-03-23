@@ -1,0 +1,48 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.viewport1, .viewport2 {
+    width: 100%;
+    position: absolute;
+    height: 50%;
+}
+.viewport1 {
+    top: 0;
+    background-image: linear-gradient(to right, rgb(25, 94, 157), rgb(66, 204, 161));
+}
+
+.viewport2 {
+    bottom: 0;
+    background-image: linear-gradient(to right, rgb(169, 51, 118), rgb(210,129,20));
+}
+
+
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;    
+}
+
+i {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
