@@ -1,0 +1,24 @@
+
+
+section {
+    position: absolute;
+    top: 250px;
+    left: 180px;   
+}
+
+section h3 {
+    
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    font-size: 16px;
+    margin: 0;
+}
+
+section span {
+    padding-left: 3px;
+    color: grey;
+    position: absolute;
+    bottom: 15px;
+    left: 10px
+}
