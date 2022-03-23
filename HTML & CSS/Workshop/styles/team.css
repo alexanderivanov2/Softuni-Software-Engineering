@@ -1,0 +1,17 @@
+#team {
+    padding: 64px 1rem;
+}
+
+#team .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#team .teamMember {
+    width: 300px;
+}
+
+#team .teamMember .poster {
+    width: 100%;
+}
