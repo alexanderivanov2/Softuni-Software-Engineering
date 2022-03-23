@@ -1,0 +1,15 @@
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
