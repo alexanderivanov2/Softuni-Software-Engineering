@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    background-color: lightgray;
+    align-items: stretch;
+    padding: 2rem;
+}
+
+header {
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 15vh;
+    margin-bottom: 1.2rem;
+}
+
+main {
+    flex-basis: 70%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 35vh;
+    margin-bottom: 1.2rem;
+}
+
+aside {
+    flex-basis: 28%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+}
+
+footer {
+    flex-basis: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 15vh;
+}
+
+header, main, aside, footer {
+    padding: 1.5rem;
+}
