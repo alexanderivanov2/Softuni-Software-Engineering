@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    padding: 0 5rem;
+}
+
+.masonry {
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    margin: 2rem auto;
+}
+
+/* .flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    margin: 2rem auto;
+    width: 100%;      
+} */
+
+.flex-row-1, .flex-row-2{
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.flex-row-3 {
+    display: flex;
+    flex-direction: row nowrap;
+    margin: 1.5rem;
+}
+
+
+
+/* .card1, .card2, .card3, .card4 { */
+.masonry > div > div{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex > div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+    /* background-color: white; */
+    overflow: hidden;
+    /* border: 1px solid lightgray; */
+    border-radius: 5px;
+}
+
+.flex > div > div {
+    width: 20%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.flex > div > div > section {
+    height: 100%;
+}
+
+
+section, footer {
+    padding: 1rem;
+}
+
+footer {
+    border-top: 2px solid lightgray;
+}
+
+
+
+img {
+    width: 100%;
+}
