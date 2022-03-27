@@ -2,8 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
 .gallery {
     margin: 3rem;
+    width: 90vw;
 }
 
 .gallery  ul {
