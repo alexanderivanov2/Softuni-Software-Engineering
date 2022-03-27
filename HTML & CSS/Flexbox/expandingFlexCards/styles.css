@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    gap: 5%;
+}
+
+
+
+
+div {
+    flex-basis: 15%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 45px 6px rgba(0,0,0,0.75);
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: 50vh;    
+    flex-grow: 1;
+    border-radius: 5px;
+    
+}
+
+.img2 {
+    flex-grow: 1;
+}
