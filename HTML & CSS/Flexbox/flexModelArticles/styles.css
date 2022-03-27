@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    flex-basis: 23%;
+}

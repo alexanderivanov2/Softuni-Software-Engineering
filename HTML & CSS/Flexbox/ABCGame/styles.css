@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+div {
+    max-width: 15vw;
+    height: 35rem;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+}
+
+span {
+    border: 1px solid black;
+    flex-basis: 5%;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+}
+
+.S {
+    order: -1;
+}
+
+.e {
+    order: 0;
+}
+
+.m {
+    order: 1;
+}
+
+.a {
+    order: 2;
+}
+
+.n {
+    order: 3;
+}
+
+.t {
+    order: 4;
+}
+
+.i {
+    order: 5;
+}
+
+.c {
+    order: 6;
+}
+
+.H {
+    order: 7;
+}
+
+.T {
+    order: 8;
+}
+
+.M {
+    order: 9;
+}
+
+.L {
+    order: 10;
+}
+
