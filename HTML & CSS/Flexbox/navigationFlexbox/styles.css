@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 3rem;
+    padding: 1rem;
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main {
+    margin: 3rem;
+    padding: 1rem;
+}
