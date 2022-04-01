@@ -1,0 +1,65 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer"
+    ;
+    grid-template-columns: 150px 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+aside {
+    grid-area: aside;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+main {
+    grid-area: main;
+    background-color: aqua;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aqua;
+}
+
+header, main, footer {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding-left: 0.75rem;
+}
+
+aside nav ul li {
+    margin-bottom: 1rem;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        grid-template-areas:
+        "header"
+        "aside"
+        "main"
+        "footer"
+        ;
+        grid-template-columns: 1fr;
+    }    
+}
