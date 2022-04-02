@@ -1,0 +1,91 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+}
+
+legend {
+    padding: 1rem;
+    border: 1px solid;
+    background-color: rgb(243, 243, 243);
+    border-color: gray;
+    border-radius: 5px;
+}
+
+form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+form div {
+    /* margin: 1rem; */
+}
+
+#username, #password{
+    margin-top: 0.25rem;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 2.5rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    margin: 1rem 0;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.iconLog, .iconPass {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+
+@media screen and (min-width: 1200px){
+
+    html body {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 1.5rem;
+        padding: 0.50rem;
+    }
+    .user, .pass {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .iconLog {
+        padding-left: 1rem;
+    }
+    
+    .iconPass {
+        padding-left: 1.25rem;}
+
+    i {
+        left: 10%;
+    }
+}
