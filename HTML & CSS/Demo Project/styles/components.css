@@ -1,0 +1,29 @@
+/* Bttns */
+.btn {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 50px;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.career .btn {
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn--primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn--primary:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}

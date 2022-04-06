@@ -1,0 +1,87 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./components.css");
+@import url("./navigation.css");
+
+:root {
+    --color-primary: #9b5dc6;
+    --color-blue: #14162b;
+    --color-gray: #54546d;
+    --color-gray-light: #616176;
+    --color-gray-dark: #2c2c3a;
+    --color-white: #fff;
+
+    --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --navi-height: 58px;
+}
+
+main {
+    margin-top: var(--navi-height);
+}
+
+
+/* General Section ------ */
+
+.general-section {
+    padding: 2.5rem 1rem;
+}
+
+.general-section .info__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.general-section .info__desc {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.general-section .info_comment {
+    font-style: italic;
+    color: var(--color-gray-light);
+}
+
+.general-section .info__comment {
+    margin-bottom: 0.25rem;
+}
+
+.general-section .img {
+    width: 100%;
+}
+
+/* Certifiactes section */
+
+.certificates-wrapper {
+    background-color: var(--color-blue);
+}
+
+.certificates {
+    color: var(--color-white);
+    position: relative;
+}
+
+
+.certificates::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 15%;
+    background-color: var(--color-white);
+}
+
+.certificates .info,
+.certificates .img {
+    position: relative;
+    z-index: 1;
+}
+
+/* Carrer Center */
+ 
+.career {
+    padding-top: 0;
+}
