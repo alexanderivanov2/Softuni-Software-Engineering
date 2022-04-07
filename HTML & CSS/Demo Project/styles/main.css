@@ -3,6 +3,7 @@
 @import url("./typography.css");
 @import url("./components.css");
 @import url("./navigation.css");
+@import url("./footer.css");
 
 :root {
     --color-primary: #9b5dc6;
@@ -22,6 +23,9 @@ main {
     margin-top: var(--navi-height);
 }
 
+.overlay-circle {
+    display: none;
+}
 
 /* General Section ------ */
 
@@ -84,4 +88,203 @@ main {
  
 .career {
     padding-top: 0;
+}
+
+
+@media screen and (min-width: 640px) {
+    .general-section .img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .general-section {
+        padding: 4rem;
+    }
+
+    .general-section .img {
+        width: 50%; 
+    }
+    
+    .certificates::after {
+        height: 18%;
+    }
+
+    .career .btn {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .general-section {
+        padding: 3rem 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+    }
+
+    .group-section .info {
+        margin-bottom: 0;
+    }
+
+    .general-section .info__title {
+        text-align: left;
+    }
+
+    .general-section .info__desc {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .general-section .info {
+        width: calc(100% - 400px);
+    }
+
+    .general-section .img {
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;  
+    }
+
+    /* Certificates */
+    .certificates .info {
+        width: calc(100% - 380px - 1rem);    
+    }
+
+    .certificates .img {
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+        width: 380px;
+        min-width: unset;
+    }
+
+    .certificates::after {
+        display: none;
+    }
+
+    /* Carrer */
+    .general-section.career {
+        padding-top: 4rem;
+        flex-direction: row-reverse;
+    }
+
+    .career .btn {
+        margin-top: 0.5rem;
+    }
+
+    /* Circle Overlay */
+    .general-section.diplomas {
+        overflow: hidden;
+    }
+
+    .overlay-circle {
+        display: block;
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        background-color: var(--color-gray);
+        right: -10%;
+        top: -5%;
+        border-radius: 100%;
+    }
+
+    .overlay-circle > i {
+        color: var(--color-white);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: var(--color-gray-light) ;
+        font-size: 6rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .general-section {
+        padding: 4rem;
+    }
+
+    .general-section .img {
+        max-width: 400px;
+    }
+
+    /* Overlay */
+    /* Circle overlay */
+  .general-section.diplomas {
+    overflow: hidden;
+  }
+
+  .diplomas-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .diplomas-wrapper .general-section {
+    position: static;
+  }
+
+  .general-section.diplomas .info,
+  .general-section.diplomas .img {
+    z-index: 2;
+    position: relative;
+  }
+
+  .overlay-circle {
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: var(--color-gray);
+    right: -100px;
+    top: -180px;
+    border-radius: 100%;
+    z-index: 1;
+  }
+
+  .overlay-circle > i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 10rem;
+    color: var(--color-gray-light);
+  }
+}
+
+
+@media screen and (min-width: 1310px) {
+    .general-section {
+        padding: 6rem 4rem;
+    }
+
+    .general-section .img {
+        max-width: 500px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .general-section {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}  
+
+
+
+/* @media screen and (min-width: 1400px) {
+    .general-section {
+        padding: 4rem;
+        gap: 1rem;
+    }
+
+    .general-section .img {
+      max-width: 400px;  
+    }
 }
