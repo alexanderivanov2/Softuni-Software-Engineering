@@ -1,0 +1,89 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url(reset.css);
+
+/* Body Section  */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, main, .wrapper {
+    width: 70vw;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.wrapper {
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.46); 
+    box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.46);
+}
+/* Header Section  */
+
+
+header {
+    background-color: #eea11d;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 1rem;
+}
+
+header i {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/* Main Section */
+
+.section {
+    background-color: #FFFFFF;
+}
+
+.section div {
+    padding: 1.5rem 1.5rem 3rem;
+}
+
+.section--first {
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.section--second {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.section__time {
+    padding-bottom: 1rem;
+    color: #7B7D84;
+    font-size: 0.75rem;
+}
+
+.section__heading {
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
