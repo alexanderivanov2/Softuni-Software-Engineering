@@ -1,0 +1,140 @@
+@media screen and (max-width: 1200px) {
+    .hero-head .wrapper {
+        padding: 0 5rem;
+        width: 100vw;
+    }
+
+    .goal {
+        line-height: 2rem;
+    }
+
+    .content-wrap .two-col {
+        padding: 0;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .col {
+        padding-left: 30px;
+        margin: 0;
+        width: 30%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    section {
+        width: 100vw;
+    }
+
+    .sponsors .wrapper {
+        margin: 0;
+        padding: 0 30px;
+        width: 100vw;
+        font-size: 1.5rem;
+    }
+
+    .main-foot .wrapper {
+        width: 100vw;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 1.5rem;
+        align-items: flex-start;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+
+    /* Header Section */
+    .wrapper {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-head {
+        background-image: none;
+        background-color: black;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-head {
+        float: none;
+    }
+    
+    .hero-head h1 {
+        float: none;
+        clear: both;
+        font-size: 35px;
+        line-height: 68px;
+        margin: 0;
+        width: 100vw;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .hero-head .goal {
+        padding: 3rem 1.25rem 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+        float: none;
+        line-height: 2.5rem;
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    /* Main */
+
+    section {
+        width: 100vw;
+    }
+
+    .content-wrap.two-col {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100vw;
+        margin-right: 0;
+        text-align: center;
+        padding: 0 1rem;
+        font-size: 1.25rem;
+    }
+
+    .button {
+        width: 70vw;
+    }
+
+    .module-text {
+        max-width: 100%;
+        padding: 0 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .main-foot .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-foot .wrapper li {
+        padding-bottom: 1rem;
+    }
+
+    address, nav {
+        width: 100%;
+    }
+
+    .bottom-wrap .copyright {
+        width: inherit;
+    }
+}
+
