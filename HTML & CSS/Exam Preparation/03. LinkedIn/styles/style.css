@@ -1,0 +1,255 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: 'Roboto';
+}
+
+.signIn {
+    position: relative;
+    margin-bottom: 127px;
+}
+.content__wrapper {
+    width: 60%;
+    margin-left: 30px;
+}
+
+.signIn__heading {
+    color: #3468C2;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 450px;
+}
+
+form input {
+    padding: 0.50rem;
+}
+
+.signIn__forgotPassword {
+    text-decoration: none;
+    color: #75716B;
+}
+
+button.signIn__button {
+    color: #fff;
+    background-color: #3468C2;
+    border: none;
+    font-size: 18px;
+    padding: 0.50rem;
+    border-radius: 50px;
+
+}
+.password__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.password__wrapper input {
+    position: relative;
+}
+
+.password__wrapper span {
+    position: absolute;
+    right: calc(70% + 3px);
+    top: calc(70% + 3px);
+    color: #75716B;
+}
+
+.signIn__img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Open Jobs Section */
+
+.openJobs {
+    background-color: #FAF9F7;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.openJobs h2 {
+    max-width: 36%;
+    font-size: 68px;
+    flex-basis: 2;
+}
+
+.openJobs__btns {
+    max-width: 800px;
+}
+
+.openJobs__btns p{
+    font-size: 18px;
+    color: #75716B;
+    margin-bottom: 10px;
+}
+
+.openJobs__btns button {
+    background-color: #E6E5E4;
+    color: #75716B;
+    border-radius: 50px;
+    border: none;
+    font-size: 32px;
+    padding: 0.50rem 1rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Section Post Job */
+
+.postJob {
+    background-color: #F1ECE5;
+    padding: 50px 0 50px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.postJob h2 {
+    max-width: 36%;
+    font-size: 58px;
+    color: #B34222;
+}
+
+.postJob button {
+    border-radius: 50px;
+    font-size: 32px;
+    padding: 0.50rem 1rem;
+    background-color: #F1ECE5;
+    color: #75716B;
+    border-color: #75716B;
+}
+
+.information {
+    padding: 150px 0 150px 30px;
+    display: flex;
+    align-items: center;
+    background-color: #FAF9F7;
+}
+
+.information__content {
+    max-width: 60%;
+}
+
+.information_heading {
+    max-width: 80%;
+    font-size: 58px;
+    color:#3468C2;
+}
+
+.information__content .desc {
+    margin-top: 20px;
+    font-size: 48px;
+    max-width: 85%;
+}
+
+.information__img {
+    width: 40%;
+}
+
+/* find people Section */
+
+.findPeople {
+    padding: 100px 0 100px 30px;
+}
+
+.wrapper__logos {
+    display: flex;
+    width: 100%;
+    gap: 5%
+}
+
+.connect, .learn {
+    max-width: 45%;
+}
+
+.connect h3, .learn h3 {
+    margin: 1rem 0;
+    font-size: 50px;
+}
+
+.connect img, .learn img {
+    max-width: 50%;
+}
+
+.connect button {
+    background-color: #fff;
+    padding: 0.50rem 1rem;
+    border-radius: 50px;
+    border: 1px solid #75716B;
+    color: #75716B;
+    margin-top: 2%;
+}
+
+.getStarted {
+    padding-left: 30px;
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.getStarted h2 {
+    padding-top: 30px;
+    font-size: 58px;
+    max-width: 70%;
+    color: #3468C2;
+}
+
+.getStarted .btn__getStarted {
+    color: #fff;
+    background-color: #3468C2;
+    border: none;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+
+footer {
+    padding: 30px 0 30px 30px;
+    background-color: #F1ECE5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.wrapper__footer {
+    padding-top: 30px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+
+.wrapper__footer nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav a, nav p {
+    margin-bottom: 10px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #75716B;
+}

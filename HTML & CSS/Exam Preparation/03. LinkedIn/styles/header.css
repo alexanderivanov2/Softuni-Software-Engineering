@@ -1,0 +1,29 @@
+.header__nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0 15px;
+}
+
+.header__nav_logo {
+    width: 10%;
+}
+
+.btn--wrapper button {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.btn__joinNow {
+    border: none;
+    background-color: #fff;
+    color: #75716B;
+}
+
+.btn__signIn {
+    background-color: #fff;
+    border-color: #3468C2;
+    color: #3468C2;
+    border-radius: 50px;
+    padding: 0.50rem 1rem;
+}
