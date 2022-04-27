@@ -3,7 +3,16 @@
         display: none;
     }
 
-    .w3-padding-large {
+    .w3-col.m6.w3-padding-large {
+        width: 100%;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .w3-col.l6.w3-padding-large {
         width: 100%;
     }
 }
