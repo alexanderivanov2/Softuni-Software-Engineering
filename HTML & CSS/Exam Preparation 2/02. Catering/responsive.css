@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .w3-hide-small {
+        display: none;
+    }
+
+    .w3-padding-large {
+        width: 100%;
+    }
+}
