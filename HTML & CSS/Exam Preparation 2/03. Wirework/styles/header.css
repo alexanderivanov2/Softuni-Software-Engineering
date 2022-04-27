@@ -1,0 +1,96 @@
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.header__img {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    gap: 10%;
+    padding: 1rem 1.5rem 1.7rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.logo__text {
+    display: flex;
+    align-items: baseline;
+    width: 40%;
+    gap: 3%;
+}
+
+.logo__heading, .logo__text {
+    color: #2C383B
+}
+
+.logo__heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo__horizontal__line{
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+
+.logo__text span{
+    color: lightgrey;
+}
+
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    width: 100%;
+}
+
+.nav__p {
+    padding:1.3rem;
+    /* margin: 0 auto; */
+}
+
+.nav .nav__li {
+    /* padding: 0.75rem; */
+    background-color: lightgrey;
+    color: #2C383B;
+    border-left: 1px solid white;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav__li.nav__li__homepage {
+    background-color: #E24E2A;
+    color: white;
+}
+
+.header__desc {
+    width: 100%;
+    background-color: #E24E2A;
+    color: white;
+    position: relative;
+    bottom: -75vh;
+    z-index: 10;
+}
+
+.header__desc p {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 100;
+    padding: 3rem 15rem;
+    text-align: center;
+}
