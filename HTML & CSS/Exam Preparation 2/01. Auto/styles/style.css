@@ -1,0 +1,56 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1, h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: 'Poppins';
+}
+.auto {
+    display: flex;
+    width: 80%;
+    gap:10%;
+    margin: 5rem auto;
+    
+}
+
+.section info {
+    width: 40%;
+}
+
+.info h1 {
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.info p {
+    margin-bottom: 1rem;
+    /* color: #C8C8C8; */
+    color: #515151;
+}
+
+.row {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inner--img {
+    width: 5rem;
+}
+
+.inner--div h2{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
