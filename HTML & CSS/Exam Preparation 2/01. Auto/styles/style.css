@@ -30,6 +30,7 @@ p {
 .info h1 {
     margin-bottom: 2rem;
     letter-spacing: 1px;
+    line-height: 1.75rem;
 }
 
 .info p {
@@ -47,10 +48,11 @@ p {
 }
 
 .inner--img {
-    width: 5rem;
+    width: 4rem;
 }
 
 .inner--div h2{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
