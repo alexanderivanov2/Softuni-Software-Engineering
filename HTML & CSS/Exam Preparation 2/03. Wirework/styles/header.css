@@ -83,14 +83,22 @@ header {
     background-color: #E24E2A;
     color: white;
     position: relative;
-    bottom: -75vh;
+    bottom: -70vh;
     z-index: 10;
 }
 
 .header__desc p {
-    font-size: 1rem;
+    font-size: 0.75rem;
     line-height: 2rem;
     font-weight: 100;
     padding: 3rem 15rem;
     text-align: center;
+}
+
+.font__weight {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
 }

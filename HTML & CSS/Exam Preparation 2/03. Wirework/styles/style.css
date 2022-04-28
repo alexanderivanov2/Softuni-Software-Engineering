@@ -1,5 +1,6 @@
 @import url('./reset.css');
 @import url('./header.css');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -9,9 +10,91 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+.services {
+    background-color: #383838;
+    padding: 5rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.services__article {
+    text-align: center;
+}
+
+.services__heading {
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.services__line {
+    width: 100%;
+    border-top: 2px solid #6C6C6C;
+    padding-bottom: 1rem;
+}
+
+.services__desc {
+    color: #6C6C6C;
+    text-align: center;
+    line-height: 30px;
+}
+
+i {
+    font-size: 3rem;
+    color: white;
+    background-color: #E24E2A;
+    padding: 0.75rem;
+}
+
+/* Section use--service */
+
+.use--service {
+    text-align: center;
+    padding: 3rem 0;
+}  
+
+.use__heading {
+    font-size: 2rem;
+    color: #6C6C6C;
+}
+
+.use__p {
+    color: #919191;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.use__button {
+    background-color: #489773;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+}
 
 
+/* Second Sevices Section */
 
-    
+.second__desc {
+    padding-top: 2rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #489773;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.footer__p {
+    color: #5BAD84;
+}
+
+.footer__p span {
+    color: #A1D1B9;
+}
 
 
