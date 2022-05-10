@@ -1,0 +1,195 @@
+@import url('./reset.css');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+:root {
+    --color-orange: #EE9F1E;
+    --color-white: #FFFFFF;
+    --color-darkblue: #234465;
+    --color-blue-word: #3C7AB7;
+    --color-dark-gray-letters: #56585F;
+    --color-gray: #91A1B2;
+    --color-gray-background: #F2F2F2;
+    --color-gray-lections: #DADADA;
+
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+/* HEADER PART */
+
+header {
+    background-color: var(--color-darkblue);
+}
+
+header nav {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo--part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    height: 70%;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: var(--color-gray);
+    font-weight: bold;
+}
+
+.navigation i {
+    color: var(--color-gray);
+}
+
+/* MAIN PART */
+
+/* SECTION COURSES */
+.courses {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.software__enginering {
+    color: var(--color-orange);
+    font-weight: bold;
+}
+
+.open__courses {
+    color: var(--color-darkblue);
+    font-weight: bold;
+}
+
+/* SECTION WORDPRESS WRAPPER */
+
+.wordpress--wrapper {
+    background-image: url('../Requirements-and-Resources/images/details-background.png');
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wordpress--wrapper::before {
+    content: '';
+    background: url('../Requirements-and-Resources/images/wordpress.png') no-repeat center center/cover;
+    width: 25%;
+    height: 190%;
+    position: absolute;
+    top: 136px;
+    left: -92px;
+    transform: rotate(20deg);
+    z-index: 5;
+    opacity: 0.55;
+    
+}
+
+.wordpress--course {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.course__heading {
+    color: var(--color-white);
+    font-weight:900;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.course__short__info {
+    color: var(--color-white);
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.course__short__info li i {
+    font-size: 28px;
+    padding-right: 5px;
+}
+
+.special__btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 80px;
+}
+
+/* Section for course */
+
+.for--course {
+    background-color: var(--color-gray-background);
+    width: 80%;
+    margin: 30px auto 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.for__course {
+    padding: 15px 65px 25px;
+    text-align: center;
+}
+
+.heading__for__course {
+    font-size: 22px;
+    color: var(--color-darkblue);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: var(--color-orange);
+    text-decoration-thickness: 3px;
+    text-decoration-line: 80% ;
+}
+
+.desc {
+    color: var(--color-darkblue);
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-align: left;
+}
+
+p em {
+    font-weight: bold;
+    color: var(--color-darkblue);
+}
+
+
