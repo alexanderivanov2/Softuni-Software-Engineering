@@ -1,0 +1,229 @@
+@import url('./reset.css');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+
+:root {
+    --white: #FFFFFF;
+    --coral-green: #5DBFAD;
+    --orange: #F1B317;
+    --light-grey: #B2B2B2;
+    --light-dark-grey: #919191;
+    --grey: #565656;
+    --light-blue: #92CDFB;
+    --blue: #66B9F8;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.navigation {
+    background-color: var(--coral-green);
+}
+
+.logo {
+    width: 10%;
+}
+
+.navigation-wrapper {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.nav-li-item {
+    font-size: 14px;
+    color: white;
+}
+
+header {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.header-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.header-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.header-desc {
+    line-height: 1.5;
+}
+
+.directors {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 90%;
+    margin: 5rem auto 10rem;
+}
+
+.director--wrapper {
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+}
+
+.img--wrapper {
+    width: 45%;
+    
+}
+
+.profile--pic {
+    width: 100%;
+    border-radius: 200px;
+    border: 10px solid var(--coral-green);
+}
+.director-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name {
+    color: var(--coral-green);
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 0.50rem;
+}
+
+
+.title {
+    font-size: 0.75rem;
+    color: var(--light-grey);
+    padding-bottom: 1rem;
+}
+
+.desc {
+    color: var(--light-dark-grey);
+    font-size: 1rem;
+}
+
+.teachers {
+    width: 80%;
+    margin: 2rem auto 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    
+}
+
+.teacher > .img--wrapper {
+    width: 75%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.teacher .profile--pic {
+    aspect-ratio: 1/1;
+}
+
+.become--member{
+    background-color: var(--blue);
+    border-top: 10px solid var(--light-blue);
+    padding: 2rem 0 5rem;
+}
+
+.wrapper--become--member {
+    width: 60%;
+    margin: 0 auto;
+    color: var(--white);
+    text-align: center;
+}
+
+.become__member__desc {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding: 0.50rem 0.75rem;
+    margin-left: 1rem;
+}
+
+input::placeholder {
+    color: var(--white);
+}
+
+.submit {
+    border-radius: 5px;
+    border: 2px solid var(--orange);
+    background-color: var(--orange);
+    border-radius: 50px;
+    color: var(--white);
+    padding: 0.50rem 1rem;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: var(--grey);
+    border-top: 10px solid var(--light-dark-grey);
+}
+
+.foot--info {
+    width: 80%;
+    margin: 1.5rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--white);
+}
+
+.footer--article {
+    margin: 1rem 0 1.5rem;
+}
+
+.footer__heading {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.footer__li {
+    margin-bottom: 0.75rem;
+}
+
+.footer__li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer--follow i{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-right: 0.50rem;
+}
