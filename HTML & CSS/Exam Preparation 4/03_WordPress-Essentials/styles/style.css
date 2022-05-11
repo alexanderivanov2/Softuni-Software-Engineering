@@ -82,7 +82,7 @@ header nav {
     width: 80%;
     display: flex;
     gap: 20px;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 .software__enginering {
@@ -121,7 +121,7 @@ header nav {
 .wordpress--course {
     width: 80%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -193,3 +193,235 @@ p em {
 }
 
 
+/* Section skill you get */
+
+.skills--you--get {
+    background-color: var(--color-gray-background);
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+    z-index: 10;
+}
+
+.ul--flex--wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li__skill {
+    width: 50%;
+    text-align: left;
+    color: var(--color-dark-gray-letters);
+}
+
+
+.li__skill i {
+    color: var(--color-orange);
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.themes {
+    width: 80%;
+    margin: 30px auto;
+    background-color: var(--color-gray-background);
+}
+
+.ul--themes {
+    gap: 5%;
+    margin-bottom: 40px;
+}
+
+.li__theme {
+    width: 47%;
+    text-align: left;
+    background-color: var(--color-gray-lections);
+    padding: 10px 0 15px 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid var(--color-darkblue);
+    color: var(--color-dark-gray-letters);
+    font-weight: 900;
+}
+
+.number {
+    color: var(--color-darkblue);
+    padding-right: 20px;
+}
+
+/* Section course requirements */
+
+.course--requirements {
+    width: 80%;
+    margin: 30px auto;
+    background-color: var(--color-orange);
+}
+
+.heading__white {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.requirements__desc {
+    color: var(--color-white);
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Section Information */
+
+.information {
+    width: 80%;
+    margin: 30px auto;
+    background-color: var(--color-gray-background);
+    position: relative;
+    height: 400px;
+}
+
+.signin {
+    padding: 30px;
+}
+
+.signin .p__heading {
+    color: var(--color-orange);
+    text-align: left;
+    font-weight: bolder;
+}
+
+.signin .p__desc {
+    color: var(--color-dark-gray-letters);
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.signin .p__desc strong {
+    font-weight: bolder;
+}
+
+.live--online {
+    padding: 20px 20px 0;
+    color: var(--color-white);
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+}
+
+.live, .online {
+    padding: 10px 0 15px 20px;
+    display: flex;
+}
+
+.live {
+    background-color: var(--color-darkblue);
+    
+}
+
+.online {
+    background-color: var(--color-orange);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.ul__online .live__item, .ul__live .live__item {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.live__heading {
+    font-size: 18px;
+    font-weight: bold;
+    width: 35%;
+}
+
+/* Section Teacher */
+
+.teacher {
+    width: 80%;
+    margin: 30px auto;
+    background-color: var(--color-gray-background);
+}
+
+.article__teacher {
+    padding: 25px 40px 60px;
+}
+
+.article__teacher h3{
+    padding-bottom: 75px;
+}
+
+.for__teacher {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.heading__teacher {
+    color: var(--color-darkblue);
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.desc__teacher {
+    color: var(--color-dark-gray-letters);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.desc__teacher strong {
+    font-weight: bolder;
+}
+
+.profile__pic {
+    border-radius: 200px;
+    height: 100px;
+}
+
+.btn__section {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-darkblue);
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+    padding: 40px 0 50px;
+}
+.ul--footer {
+    width: 20%;
+}
+.ul__heading {
+    color: var(--color-orange);
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.icons__ul {
+    color: var(--color-white);
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.icons__ul i {
+    padding-right: 22px;
+}
+
+.li__footer {
+    color: var(--color-white);
+    line-height: 22px;
+}
+
+.footer__info {
+    color: var(--color-gray);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
