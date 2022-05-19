@@ -92,3 +92,140 @@ input {
     color: var(--color-grey-letters-rooms);
     padding-top: 0.50rem;
 }
+
+/* Section Start Now */
+
+.start__now {
+    display: flex;
+    gap: 5%;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.start__now__desc {
+    padding-top: 2rem;
+    width: 30%;
+}
+
+.heading__start__now {
+    color: var(--color-orange-background);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.start__now__p{
+    color: var(--color-grey-letters-rooms);
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.start__now__btn {
+    padding: 0.50rem;
+    color: var(--color-white);
+    background-color: var(--color-orange-background);
+    border: none;
+    border-radius: 2px;
+}
+
+.wrapper__start__now__img {
+    width: 70%;
+}
+
+.start__now__img {
+    width: 100%;
+}
+
+.services {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: var(--color-grey-background-services);
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 2rem 0;
+}
+
+.service__img__wrapper {
+    width: 20%;
+    padding: 1rem;
+    color: var(--color-grey-icon);
+    background-color: var(--color-white);
+    border-radius: 200px;
+}
+
+.img__service {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.service__heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.service__info {
+    font-size: 12px;
+    color: var(--color-grey-letters-rooms);
+}
+
+footer {
+    width: 80%;
+    margin: 2rem auto 3rem;
+    display: flex;
+}
+
+.footer__nav {
+    margin-right: 15%;
+}
+
+.footer__item {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-footer-elements);
+    margin-right: 1rem;
+}
+
+.bold__footer {
+    font-weight: bold;
+}
+
+.footer__info {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__contact {
+    color: var(--color-footer-elements);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.btn__call {
+    padding: 0.25rem 2.5rem;
+    background-color: var(--color-grey-background-services);
+    color: var(--color-footer-elements);
+    border: none;
+    margin-right: 1rem;
+}
+
+.worktime {
+    font-size: 14px;
+    color: var(--color-footer-elements);
+}
+
+.icons {
+    margin-left: 1rem;
+}
+
+.icon__footer {
+    color: var(--color-footer-elements);
+    font-size: 1.2rem;
+    padding-left: 0.50rem;
+}
