@@ -1,5 +1,94 @@
 @import url(./reset.css);
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+:root {
+    --color-orange-background: #E6332D;
+    --color-white: #FFFFFF;
+    --color-grey-search-btn: #B6AFAF;
+    --color-grey-letters-rooms: #9D9284;
+    --color-grey-background-services: #CAC3C3;
+    --color-grey-icon: #757575;
+    --color-letters-services: #5F86A8;
+    --color-footer-elements: #808080;
+    --color-main-background: #F0E4E4;
+}
 
 body {
-    font-family: "Noto Sans JP";
+    font-family: "Noto Sans";
+    background-color: var(--color-main-background);
+}
+
+header {
+    background-color: var(--color-orange-background);
+}
+
+.navigation {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.link__item {
+    color: var(--color-white);
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+
+.search__bar {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+
+input {
+    padding: 0.50rem 0 0.50rem 0.50rem;
+    width: 100%;
+    border: 1px solid var(--color-grey-search-btn);    
+}
+
+.search__bar span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--color-grey-search-btn);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-grey-search-btn);
+}
+
+
+.wrapper__my__account {
+    display: flex;
+    gap: 0.50rem;
+    color: var(--color-white);
+}
+
+/* Main Rooms Section */
+
+.rooms {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    gap: 2.5%;
+}
+
+.room {
+    width: 25%;
+}
+
+.img__wrapper {
+    width: 100%;
+}
+
+.room__img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.room__name {
+    text-align: center;
+    color: var(--color-grey-letters-rooms);
+    padding-top: 0.50rem;
 }

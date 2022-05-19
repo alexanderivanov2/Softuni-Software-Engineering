@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Furniture Store</title>
 </head>
 <body>
@@ -16,11 +17,44 @@
                 <a href="#" class="link__item">Lighting</a>
                 <a href="#" class="link__item">Appliances</a>
             </nav>
-            <input type="text" placeholder="Search anything..." class="search__bar">
+            <div class="search__bar">
+                <input type="text" placeholder="Search anything..." >
+                <span><i class="fas fa-search"></i></span>
+            </div>
+            
             <div class="wrapper__my__account">
+                <i class="fas fa-user"></i>
                 <p class="my__acc">My Account</p>
             </div>
         </section>
     </header>
+    <main>
+        <section class="rooms">
+            <article class="room">
+                <div class="img__wrapper">
+                    <img src="./03_FurnitureStore/Requirements-and-Resources/Media/liv-room.jpg" alt="Living Room" class="room__img">
+                </div>
+                <p class="room__name">Living Room</p>
+            </article>
+            <article class="room">
+                <div class="img__wrapper">
+                    <img src="./03_FurnitureStore/Requirements-and-Resources/Media/kitchen.jpg" alt="Kitchen" class="room__img">
+                </div>
+                <p class="room__name">Kitchen</p>
+            </article>
+            <article class="room">
+                <div class="img__wrapper">
+                    <img src="./03_FurnitureStore/Requirements-and-Resources/Media/bedroom.jpg" alt="Bedroom" class="room__img">
+                </div>
+                <p class="room__name">Bedroom</p>
+            </article>
+            <article class="room">
+                <div class="img__wrapper">
+                    <img src="./03_FurnitureStore/Requirements-and-Resources/Media/bathroom.jpg" alt="Bathroom" class="room__img">
+                </div>
+                <p class="room__name">Bathroom</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
