@@ -1,0 +1,3 @@
+{"id": 1, "name": "burger_mario", "img_path": "1.png", "count": 12}
+{"id": 2, "name": "duner", "img_path": "2.png", "count": 24}
+{"id": 3, "name": "pizza", "img_path": "3.png", "count": 25}
