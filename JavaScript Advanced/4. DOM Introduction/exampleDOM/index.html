@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+    <h1 id="heading">Introduction To DOM</h1>
+    <button style="display: block;" onclick="changeHeader()">Change h1</button>
+    <ul>
+        <li>DOM Methods example</li>
+        <li>DOM Properies example</li>
+    </ul>
+    <button onclick="clickButton()">Click Me For Change</button>
+    <script>
+        function clickButton() {
+            let liItems = document.getElementsByTagName('li');
+            for (let li of liItems) {
+                li.innerHTML += ' - DONE!'
+            } 
+        }
+        let headingElement = document.getElementById('heading');
+        headingElement.textContent = 'Hello'
+    </script>
+    <script src="./demo.js">
+    </script>
+</body>
+</html>
