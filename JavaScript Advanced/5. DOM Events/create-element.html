@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM Events | Movie List</h1>
+
+    <ul id="movie-list">
+        <li>The Matrix</li>
+        <li>Die Hard</li>
+        <li>Lethal Weapon</li>
+        <li>Star Wars</li>
+        <li>Rambo</li>
+    </ul>
+
+
+    <script>
+       let movieElements = document.querySelectorAll('#movie-list li');
+
+       movieElements.forEach(el => {
+           el.addEventListener('click', (e) => {
+                e.currentTarget.style.textDecoration = 'line-through';
+           })
+       })
+    </script>
+</body>
+</html>
