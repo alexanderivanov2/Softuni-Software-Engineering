@@ -1,0 +1,16 @@
+function functionalSum(n) {
+    let sum = n;
+    function add(num) {
+        sum += num;
+        return add;
+    }
+
+    add.result = () => {return sum}; 
+    add.toString = () => {return sum};
+    return add;
+}
+
+console.log(functionalSum(1).toString());
+let sum = functionalSum(1)(2)(3)(1);
+console.log(sum.result());
+console.log(functionalSum(1)(6)(-3).toString());
