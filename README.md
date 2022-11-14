@@ -18,7 +18,7 @@ Software University | Course Exercise | Certificates | Alexander Ivanov
 
 | **Course**                                                            | **Link**                                                   |
 | --------------------------------------------------------------------- | ---------------------------------------------------------- |
-| <a href="https://softuni.bg/certificates/details/100237/b9ffec98" > Programming Basics with Python </a>         | <a href="https://softuni.bg/certificates/details/100237/b9ffec98"> Link</a> |
+| <a href="https://softuni.bg/certificates/details/100237/b9ffec98" target="_blank" > Programming Basics with Python </a>         | <a href="https://softuni.bg/certificates/details/100237/b9ffec98" target="_blank"> Link</a> |
 | <a href="https://softuni.bg/certificates/details/110828/9b2b378b"> Programming Fundamentals with Python </a> | <a href="https://softuni.bg/certificates/details/110828/9b2b378b"> Link</a> |
 | <a href="https://softuni.bg/certificates/details/114150/a58b8641"> Python Advanced </a>                                             | <a href="https://softuni.bg/certificates/details/114150/a58b8641"> Link</a> |
 | <a href="https://softuni.bg/certificates/details/120643/9944b309"> Python OOP </a>                                                      | <a href="https://softuni.bg/certificates/details/120643/9944b309"> Link</a> |
